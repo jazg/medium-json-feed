@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/frandiox/medium-json-feed#readme",
   "engines": {
-    "node": ">=6.0.0"
+    "node": "14.x"
   },
   "dependencies": {
     "xml2js": "^0.4.22"
