@@ -56,5 +56,5 @@ module.exports = (endpoint = '/', callback) => {
         fail(500, error.message, reject, callback);
       }
     });
-  }).on('error', error => fail(500, error.message, reject, callback)));
+  }).on('error', error => fail(500, error.message, reject, callback))).catch(err=>console.log(err));
 };
